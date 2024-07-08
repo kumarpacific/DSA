@@ -1,0 +1,28 @@
+Backtracking = recursion + control + pass by reference
+
+*** Array and String are very important and should be practiced accordingly. :)
+
+
+Problems - permutations of string
+
+1. What is backtracking?
+2. D/f between BT, DP and recursion?
+3. pass by value vs pass by reference?
+4. BT = Controlled recursion + pass by reference.
+
+
+Backtracking -
+
+In recursion there is always a 'recursion call stack' is created which saves the local variable and state of that function call.
+This call stack handles the revert operation happens during backtracking.
+
+
+Recursion = choices + decisions = we get solution in leaf node.
+
+In generic cases below are its subtypes:
+|- Dynamic Programming -> choices + decisions + (optimal) -> create sub problem and collectively solving them gives the answer. ->
+   Get the answer in Root node.
+|- Backtracking -> choices + decisions + pass by value + combinations -> asking about all combination. ->
+   Get the answer as path from root to leaf node.
+|- Divide and conquer - LATER
+

@@ -12,4 +12,7 @@ Most questions are available in below websites.
 3. CMD+Opt+L -> Format code
 4. Control+R -> Run
 5. Control+D -> Debug
-6. Option+arrow -> navigate the word
+6. Option+arrow -> navigate in the sentence word-wise
+7. CMD+Opt+Left-Arrow -> go back to last edited file
+8. CMD+Opt+Right-Arrow -> go back to previous edited file
+9. CMD+Shift+UP/DOWN -> move whole code line to UP/DOWN

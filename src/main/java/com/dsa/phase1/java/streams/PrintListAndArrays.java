@@ -26,5 +26,37 @@ public class PrintListAndArrays {
 
         // Iterate with stream
 //        IntStream.range(0, list.length).forEach(i -> System.out.println(list[i]));
+
+
+//        Arrays.stream(nums).sorted()
+
+//        Iterate map example and transform it to Linked HashMap
+//        Map<Integer, Integer> nmap = map.entrySet().stream()
+//                        .sorted(Map.Entry.comparingByValue())
+//                                .collect(Collectors.toMap(
+//                                        Map.Entry::getKey,
+//                                        Map.Entry::getValue,
+//                                        (e1,e2) -> e2,
+//                                        LinkedHashMap::new
+//                                ));
+
+//        Boxed to primitive
+//        Arrays.stream(arr).mapToInt(Integer::intValue).toArray();
+
+
+//        primitive to Boxed
+//        Integer[] arr = Arrays.stream(nums).boxed().toArray(Integer[]::new);
+
+
+
+//        Sort based on frequency or else decreasing values.
+//        Arrays.parallelSort(arr, (a, b) -> {
+//            if (!map.get(a).equals(map.get(b))) {
+//                return map.get(a) - map.get(b);
+//            } else {
+//                return b - a;
+//            }
+//        });
+
     }
 }

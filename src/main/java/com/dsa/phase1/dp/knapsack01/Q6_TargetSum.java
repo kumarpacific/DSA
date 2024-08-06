@@ -1,4 +1,4 @@
-package com.dsa.phase1.dp;
+package com.dsa.phase1.dp.knapsack01;
 
 // This is exactly same question as Q5 - count, words has been altered to make it look complex.
 public class Q6_TargetSum {
@@ -16,6 +16,4 @@ public class Q6_TargetSum {
     private static int getTargetSum(int[] items, int sum) {
         return Q5_CountSubsetWithGivenDifference.getCountSubsetWithGivenDifference(items, sum);
     }
-
-
 }

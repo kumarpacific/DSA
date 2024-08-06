@@ -1,4 +1,4 @@
-package com.dsa.phase1.dp;
+package com.dsa.phase1.dp.knapsack01;
 
 // how many subsets are there, which sum are equal to the given sum.
 public class Q3_CountOfSubsetSumWithGivenSum {

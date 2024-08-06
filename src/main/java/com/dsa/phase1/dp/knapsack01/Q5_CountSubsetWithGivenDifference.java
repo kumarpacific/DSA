@@ -1,4 +1,4 @@
-package com.dsa.phase1.dp;
+package com.dsa.phase1.dp.knapsack01;
 
 
 import java.util.Arrays;

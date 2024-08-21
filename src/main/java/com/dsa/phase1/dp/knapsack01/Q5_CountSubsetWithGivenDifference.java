@@ -28,7 +28,7 @@ public class Q5_CountSubsetWithGivenDifference {
                     dp[i][j] = 0;
                 }
                 if (j == 0) {
-                    dp[i][j] = 1;
+                    dp[i][j] = 1;  // empty subset are considered
                 }
             }
         }

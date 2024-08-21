@@ -14,7 +14,7 @@ public class Q2_EqualSumPartition {
         int sum = 0;
 //        sum = Arrays.stream(items).reduce(0, Integer::sum);     // another way to do sum of an array
         sum = Arrays.stream(items).sum();
-        if (sum % 2 != 0) {
+        if (sum % 2 != 0) {    // if total sum is even then only equal sum can be created
             return false;
         }
 
@@ -28,7 +28,7 @@ public class Q2_EqualSumPartition {
                     dp[i][j] = false;
                 }
                 if (j == 0) {
-                    dp[i][j] = true;
+                    dp[i][j] = true;      //  two empty subset will have equal sum
                 }
             }
         }

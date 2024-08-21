@@ -22,7 +22,7 @@ public class Q1_SubsetSumProblem {
                     dp[i][j] = false;
                 }
                 if (j == 0) {
-                    dp[i][j] = true;
+                    dp[i][j] = true;  // we can create empty subset which sum will be 0
                 }
             }
         }

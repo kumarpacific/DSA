@@ -1,6 +1,5 @@
 package com.dsa.phase1.dp.knapsackUnbounded;
 
-// 1547 - https://leetcode.com/problems/minimum-cost-to-cut-a-stick/solutions/
 public class Q1_Unb_MaxCostToCutTheStick {
     public static void main(String[] args) {
         int[] cuts = {1, 3, 4, 5};
@@ -24,9 +23,7 @@ public class Q1_Unb_MaxCostToCutTheStick {
                     dp[i][j] = dp[i - 1][j];
                 }
             }
-
         }
-
         return dp[n][w];
     }
 }

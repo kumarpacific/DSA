@@ -21,7 +21,6 @@ public class Q2_EqualSumPartition {
         int n = items.length;
         int eps = sum / 2; // equalPartitionSum
         boolean[][] dp = new boolean[n + 1][eps + 1];
-
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= eps; j++) {
                 if (i == 0) {
@@ -32,7 +31,6 @@ public class Q2_EqualSumPartition {
                 }
             }
         }
-
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= eps; j++) {
                 if (items[i - 1] <= j) {
@@ -42,7 +40,6 @@ public class Q2_EqualSumPartition {
                 }
             }
         }
-
         return dp[n][eps];
     }
 }
